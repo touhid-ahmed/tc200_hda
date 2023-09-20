@@ -133,4 +133,10 @@ On the User PC, do the following:
     ![detected](detected.png "Detected")
 
 7. After completing all the tasks the robot returns to its initial position.
+
+
+
+## Acknowledgement
+
+This research work was conducted as part of the __M02 Term Project__ during the Summer Term of 2023 under the supervision of the __Assisted Working and Automation (AWA)__ department at __Hochschule Darmstadt__.
    
