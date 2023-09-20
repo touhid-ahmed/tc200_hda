@@ -53,6 +53,7 @@ The system diagram implemented for the usecase is presented above. For the proof
 The practical usecase was implemented for the __Bathroom__ area. __In order to test the code for a new area__, it is advised that the following changes are made:
 
 **1. Perform Mapping of the new environment**
+
 **2. Add/update the shelf points**
 
 __Please seek the assistance of the lab engineer to perform the above tasks.__
