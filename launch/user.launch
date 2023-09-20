@@ -1,0 +1,17 @@
+<launch>
+
+
+  <!-- Run the nodes for application -->
+
+  <!-- Node for Computer Vision algorithm -->
+
+    <node name="image_subscriber" pkg="tc200_hda" type="object_tracker.py"/>
+
+  <!-- Node for Gui --> 
+
+    <node name="tc200_gui" pkg="tc200_hda" type="main.py"/>
+
+    
+
+
+</launch>

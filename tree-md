@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#File: tree-md
+"""
+Instructions:
+
+1. Make sure you are in the folder whose tree you want
+
+2. Open a terminal and then Run the command in the terminal:
+
+./tree-md . 
+
+3. This will generate a tree structure in the terminal. Copy paste the result of the terminal to the Github markdown to get
+the tree like structure of the project!
+""" 
+
+tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
+       sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g')
+
+printf "# Project tree\n\n${tree}"
