@@ -31,3 +31,6 @@ TC200 is a versatile and entirely customizable platform specifically tailored fo
 It has mecanum wheels, or omnidirectional wheels which allows the robot with holonomic motion capabilities, making it exceptionally well-suited for 
 asks within confined spaces with limited manoeuvring room.
 
+![TC200](tc200.png?raw=true "TC200")
+
+## PROBLEM STATEMENT
