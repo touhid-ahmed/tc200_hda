@@ -120,7 +120,7 @@ On the User PC, do the following:
    
 3.  Run the launch file for the user side:
 
-   `roslaunch tc200_hda robot_usecase.launch`
+   `roslaunch tc200_hda user.launch`
    
 4. A GUI will appear on the screen. Wait for the detection screen to come up as well.
 
