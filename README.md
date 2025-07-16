@@ -77,10 +77,10 @@ On the User PC, do the following:
 1. Turn on the Robot
 2. Make sure the robot is placed at its parked spot. If not, teleop the robot using the joystick
 3. On the user side PC, make sure that the PC is connected to the same Wi-Fi network as the TC200. (ex: MAROON WLAN)
-4. Open a new terminal in the user-side PC for connecting to the ROS machine of TC200:
+4. Open a new terminal in the user-side PC for connecting to the ROS machine of TC200
 
 
-   `ssh tc200@192.168.188.31 -Y`
+   `ssh tc200@192.168.XXX.XX -Y`
 
 5. Enter the password for the network (to be provided by the lab engineer)
 
@@ -108,7 +108,7 @@ On the User PC, do the following:
 
 1. Export the __ROS MASTER URI__ to locate the master (TC200 is the ROS master for the use case)
 
-    `export ROS_MASTER_URI=http://192.168.188.31:11311`
+    `export ROS_MASTER_URI=http://192.168.XXX.XX:11311`
 
 2. source the catkin workspace of the user side:
      
